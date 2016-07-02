@@ -46,7 +46,7 @@ class CashTextFieldDelegate: NSObject, UITextFieldDelegate{
             textField.text = "$0.00"
         }
     }
-    
+    //What does this do?
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         
